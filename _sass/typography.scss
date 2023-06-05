@@ -1,6 +1,24 @@
 @import "vars";
 
 .content {
+    h1,
+    h2,
+    h3,
+    #toctitle,
+    .sidebarblock > .content > .title,
+    h4,
+    h5,
+    h6 {
+      font-family: "Fira Sans", "DejaVu Sans", sans-serif;
+      font-weight: bolder;
+      font-style: normal;
+      color: #337ccf;
+      text-rendering: optimizeLegibility;
+      margin-top: 1em;
+      margin-bottom: 0.5em;
+      line-height: 1.2;
+      word-spacing: -0.05em;
+    }
     a:hover {
         text-decoration: underline;
     }
@@ -53,8 +71,91 @@
             }
         }
     }
+    .subheader,
+    .admonitionblock td.content > .title,
+    .audioblock > .title,
+    .exampleblock > .title,
+    .imageblock > .title,
+    .listingblock > .title,
+    .literalblock > .title,
+    .stemblock > .title,
+    .openblock > .title,
+    .paragraph > .title,
+    .quoteblock > .title,
+    table.tableblock > .title,
+    .verseblock > .title,
+    .videoblock > .title,
+    .dlist > .title,
+    .olist > .title,
+    .ulist > .title,
+    .qlist > .title,
+    .hdlist > .title {
+      line-height: 1.45;
+      color: #337ccf;
+      font-style: italic;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 0.25em;
+    }
     img {
+        display: inline-block;
         text-align: center;
         width: 100%;
+        border: 0;
+        -ms-interpolation-mode: bicubic;
+    }
+    
+    sup.footnote,
+    sup.footnoteref {
+      font-size: 0.875em;
+      position: static;
+      vertical-align: super;
+    }
+    
+    sup.footnote a,
+    sup.footnoteref a {
+      text-decoration: none;
+    }
+    
+    sup.footnote a:active,
+    sup.footnoteref a:active {
+      text-decoration: underline;
+    }
+    
+    #footnotes {
+      padding-top: 0.75em;
+      padding-bottom: 0.75em;
+      margin-bottom: 0.625em;
+    }
+    
+    #footnotes hr {
+      width: 20%;
+      min-width: 6.25em;
+      margin: -0.25em 0 0.75em;
+      border-width: 1px 0 0;
+    }
+    
+    #footnotes .footnote {
+      padding: 0 0.375em 0 0.225em;
+      line-height: 1.3334;
+      font-size: 0.875em;
+      margin-left: 1.2em;
+      margin-bottom: 0.2em;
+    }
+    
+    #footnotes .footnote a:first-of-type {
+      font-weight: bold;
+      text-decoration: none;
+      margin-left: -1.05em;
+    }
+    
+    #footnotes .footnote:last-of-type {
+      margin-bottom: 0;
+    }
+    
+    #content #footnotes {
+      margin-top: -0.625em;
+      margin-bottom: 0;
+      padding: 0.75em 0;
     }
 }
