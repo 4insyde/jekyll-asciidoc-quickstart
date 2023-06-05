@@ -1,13 +1,16 @@
-title: Jekyll AsciiDoc Quickstart
+title: Jekyll AsciiDoc Template
+# url: "https://some.site.com"
 # uncomment baseurl if you want to publish the site to a subfolder
-#baseurl: /blog
+#baseurl: /product
 description: The Jekyll AsciiDoc Quickstart project is a leg-up in starting your own website hosted on GitHub with content based in AsciiDoc.
+
 exclude:
   - LICENSE.adoc
   - README.adoc
   - Gemfile
   - Gemfile.lock
   - Rakefile
+
 asciidoc: {}
 asciidoctor:
   base_dir: :docdir
@@ -16,3 +19,17 @@ asciidoctor:
     - idseparator=_
     - source-highlighter=coderay
     - icons=font
+
+footer: yes
+footer_url: "https://github.com/4insyde"
+footer_text: "system42.studio by insyde.group"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: "https://www.insyde.group"
+ - name: "Contact"
+   link: "contact"
