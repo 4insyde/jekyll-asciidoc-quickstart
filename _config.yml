@@ -31,5 +31,5 @@ sass:
 nav:
  - name: "About"
    link: "https://www.insyde.group"
- - name: "Contact"
-   link: "contact"
+ - name: "Test AsciiDoc"
+   link: "test-asciidoc"
