@@ -11,7 +11,7 @@ html {
 }
 body {
     margin: 0;
-    font-family: "Montserrat";
+    font-family: $body-font;
     height: 100%;
 }
 a {
@@ -72,7 +72,7 @@ hr {
     min-height: 100%;
 }
 
-/* Institute Image */
+/* Institution Image */
 
 #ins-logo {
 	margin: auto;
@@ -127,5 +127,4 @@ hr {
 	}
 }
 
-@import "typography";
-@import "tables";
+@import "typography-ascii";
