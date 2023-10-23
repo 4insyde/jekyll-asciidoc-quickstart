@@ -1,6 +1,6 @@
 title: Jekyll AsciiDoc Template
 # url: "https://some.site.com"
-#baseurl: /product
+baseurl: /jekyll-asciidoc-quickstart 
 #repository: https://github.com/jekyll/jekyll
 #timezone: America/Los_Angeles
 #logo: "/img/logo-2x.png"
