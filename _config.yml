@@ -50,8 +50,5 @@ sass:
     style: compressed
     sass_dir: _sass
 
-nav:
- - name: "About"
-   link: "https://www.insyde.group"
- - name: "Test AsciiDoc"
-   link: "test-asciidoc"
+footer_url: "https://www.insyde.group"
+footer_text: "INSYDE, SDG"
